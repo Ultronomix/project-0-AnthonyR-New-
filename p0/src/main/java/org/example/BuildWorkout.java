@@ -1,4 +1,4 @@
-package com.github.anthonyrosado;
+package org.example;
 
 public class BuildWorkout {
     public static void Builder(){System.out.print("Under Construction");}

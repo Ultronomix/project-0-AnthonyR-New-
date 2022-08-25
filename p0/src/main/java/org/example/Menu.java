@@ -1,4 +1,4 @@
-package com.github.anthonyrosado;
+package org.example;
 import java.util.*;
 public class Menu {
     public static void mainMenu() {

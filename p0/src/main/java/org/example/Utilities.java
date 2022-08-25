@@ -1,4 +1,4 @@
-package com.github.anthonyrosado;
+package org.example;
 import java.util.concurrent.*;
 import static java.util.concurrent.TimeUnit.SECONDS;
 import java.util.*;

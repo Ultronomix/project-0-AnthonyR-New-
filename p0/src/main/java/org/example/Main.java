@@ -1,4 +1,4 @@
-package com.github.anthonyrosado;
+package org.example;
 
 import java.util.*;
 import java.lang.*;
