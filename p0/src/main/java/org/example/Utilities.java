@@ -23,8 +23,16 @@ public class Utilities {
         System.out.flush();
 
     }
-
-
+public int intInput(int input){
+        Scanner Int = new Scanner(System.in);
+        input = Int.nextInt();
+        return input;
+}
+public String stringInput(String input){
+        Scanner Sc = new Scanner(System.in);
+        input = Sc.nextLine();
+        return input;
+    }
     public static void Timer() {
 
         System.out.println("Enter time Value(seconds): ");
