@@ -1,0 +1,3 @@
+Exercise[name=pushup]
+Exercise[name=pullup]
+Exercise[name=kb swing]
