@@ -1,13 +1,16 @@
 package org.example;
+import java.io.IOException;
 import java.util.*;
 public class Menu {
+
     public static void mainMenu() {
+
         System.out.println("The CLI HIIT Trainer");
         System.out.println("Select option using numpad");
 
         String[] Options = {
-                "1.Build Workout Session",
-                "2.Start Workout Session",
+                "1.Plan Workout",
+                "2.Workout",
                 "3.Exit"
 
         };
@@ -19,13 +22,13 @@ public class Menu {
 
         switch (Input) {
             case 1:
-                BuildWorkout.Builder();
+                Crud.CrudMenu();
 
                 break;
 
             case 2:
-                StartWorkout.startWorkout();
-
+               Crud.workout();
+                Utilities.BacktoMain();
                 break;
 
             case 3:
@@ -33,6 +36,8 @@ public class Menu {
                 System.exit(0);
 
                 break;
+
+
             default:
                 System.out.println("Invalid Input");
                 System.out.println("\033[H\033[2J");
@@ -40,6 +45,9 @@ public class Menu {
                 mainMenu();
         }
         Sc.close();
+
+
     }
 
 }
+
